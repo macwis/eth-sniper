@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "truffle": "^5.5.25",
+    "web3": "^1.7.5"
+  },
+  "name": "eth-sniper",
+  "description": "Little toy project to watch TxPool on Ethereum with Geth and act under certain conditions (e.g. smart contract behaviour).",
+  "version": "1.0.0",
+  "main": "demo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macwis/eth-sniper.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macwis/eth-sniper/issues"
+  },
+  "homepage": "https://github.com/macwis/eth-sniper#readme"
+}

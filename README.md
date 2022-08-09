@@ -14,7 +14,7 @@ and act under certain conditions (e.g. smart contract behaviour).
 Start local geth instance with a test net (normally
 I would use Ganache, but it appears it does not have a TxPool):
 
-- In terminal A: `geth --datadir /tmp/geth-test --networkid 15`
+- In terminal A: `geth --nodiscover --datadir /tmp/geth-test --networkid 15`
 - In terminal B: `geth attach /tmp/geth-test/geth.ipc`
 - In terminal C: `truffle console`
 
